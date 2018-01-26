@@ -9,7 +9,8 @@
 - Paste that link without "webcal://" only "www.facebook.com/ical/b.php?uid=1000008781234978&key=AQHBxgzG-4deOJ0h" in browser.
 - It will download a file.
 
-- Screen shots [Bdy]((https://github.com/Singhak/Python_Stuff/blob/master/bdy.PNG) [Event](https://github.com/Singhak/Python_Stuff/blob/master/event.PNG)
+- ![Bdy](https://github.com/Singhak/Python_Stuff/blob/master/bdy.PNG) 
+- ![Event](https://github.com/Singhak/Python_Stuff/blob/master/event.PNG)
 
 > Steps to run bdyreminder.py
 

@@ -26,4 +26,5 @@
 - Don't worry, use this script to remind your self birthday dates.
 - Set this to run on laptop or desktop startup program then it will give you birthday notification
 - How to use this script check [Setup steps](https://github.com/Singhak/Python_Stuff/blob/master/bdyreminder.md)
-- Credit [GeeksofGeek](https://www.geeksforgeeks.org/birthday-reminder-application-python/) and [Twillio] (https://www.twilio.com/blog/2017/09/never-forget-friends-birthday-python-flask-twilio.html)
+- Credit [GeeksofGeek](https://www.geeksforgeeks.org/birthday-reminder-application-python/) and 
+[Twillio](https://www.twilio.com/blog/2017/09/never-forget-friends-birthday-python-flask-twilio.html)
