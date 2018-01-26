@@ -19,3 +19,11 @@
 - Simply give image path to this script and run it it will generate all size of icon with folder structure and you copy those folder place in your android project
 - <python_path> AppIconGenerator.py <image_path>
 - Note: For better result give square(M x M) Image and size greater or equal to 192px X 192px
+
+### [Birthday Reminder](https://github.com/Singhak/Python_Stuff/blob/master/bdyreminder.py)
+
+- You forgot to wish birthday
+- Don't worry, use this script to remind your self birthday dates.
+- Set this to run on laptop or desktop startup program then it will give you birthday notification
+- How to use this script check [Setup steps](https://github.com/Singhak/Python_Stuff/blob/master/bdyreminder.md)
+- Credit [GeeksofGeek](https://www.geeksforgeeks.org/birthday-reminder-application-python/) and [Twillio] (https://www.twilio.com/blog/2017/09/never-forget-friends-birthday-python-flask-twilio.html)
