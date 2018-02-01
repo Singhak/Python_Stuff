@@ -28,3 +28,9 @@
 - How to use this script check [Setup steps](https://github.com/Singhak/Python_Stuff/blob/master/bdyreminder.md)
 - Credit [GeeksofGeek](https://www.geeksforgeeks.org/birthday-reminder-application-python/) and 
 [Twillio](https://www.twilio.com/blog/2017/09/never-forget-friends-birthday-python-flask-twilio.html)
+
+### [Find](https://github.com/Singhak/Python_Stuff/blob/master/find.py)
+
+- In this script I try to implement linux "find" functionality in python
+- It is pretty fast then window search
+- Uses you can see [How to use](https://github.com/Singhak/Python_Stuff/blob/master/find.md)
