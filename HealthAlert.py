@@ -31,7 +31,7 @@ def showTip(msg):
 #time.sleep(600)	
 while(1):
 	# winsound.Beep(500,1500) # we can use these also  print('\007') or  print('\a') for beep sound
-	winsound.PlaySound('rain2.wav', winsound.SND_FILENAME)
+	winsound.PlaySound('readme_res/rain2.wav', winsound.SND_FILENAME)
 	msg = tip[random.randint(0,3)]
 	showTip(msg)
 	#uncomment to use text to speech feature
