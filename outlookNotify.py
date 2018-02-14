@@ -3,7 +3,7 @@ import pythoncom
 
 class Handler_Class(object):
 	def OnNewMailEx(self, receivedItemsIDs):
-		senderList = ['', '', '', '']
+		senderList = ['', '', '', ''] #give the sender name those are imprtant for you
 		for ID in receivedItemsIDs.split(","):
 			# https://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook._mailitem_properties.aspx
 			mailItem = outlook.Session.GetItemFromID(ID)
