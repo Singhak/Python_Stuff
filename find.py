@@ -36,7 +36,9 @@ print(dir_to_search, search_pattern)
 
 
 # Walk through directory
+exclude_prefixes = '$RECYCLE.BIN'
 for dirpath, dirnames, filenames in os.walk(dir_to_search):
-    for fileName in filenames:
-        if fnmatch.fnmatch(fileName, search_pattern): # Match search string
-            print(os.path.join(dirpath, fileName))
+	if exclude_prefixes not in dirpath:
+		for fileName in filenames:
+			if fnmatch.fnmatch(fileName, search_pattern): # Match search string
+				print(os.path.join(dirpath, fileName))
