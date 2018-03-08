@@ -36,9 +36,12 @@ print(dir_to_search, search_pattern)
 
 
 # Walk through directory
-exclude_prefixes = '$RECYCLE.BIN'
+exclude_prefixes = ['$RECYCLE.BIN', '$Recycle.Bin', '$PatchCache$'] # You can add other folder name which you want to exclude in search
 for dirpath, dirnames, filenames in os.walk(dir_to_search):
-	if exclude_prefixes not in dirpath:
-		for fileName in filenames:
-			if fnmatch.fnmatch(fileName, search_pattern): # Match search string
-				print(os.path.join(dirpath, fileName))
+	for exclude in exclude_prefixes:
+		if exclude in dirpath:
+			break;
+		else:
+			for fileName in filenames:
+				if fnmatch.fnmatch(fileName, search_pattern): # Match search string
+					print(os.path.join(dirpath, fileName))
